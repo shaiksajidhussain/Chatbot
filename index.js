@@ -43,10 +43,13 @@ function output(input) {
     // Search for exact match in `prompts`
     product = compare(prompts, replies, text);
   } else if (text.match(/thank/gi)) {
-    product = "bitch watch the spell first!"
+    product = "You are welcome"
   }
   else if (text.match(/fuck you/gi)) {
     product = "fuck you too"
+  }
+  else if (text.match(/how r uh/gi)) {
+    product = "great what about you"
   }
   else if (text.match(/ljk/gi)) {
     product = "maddagoodu"
@@ -121,18 +124,31 @@ function output(input) {
 
   }
   else if (text.match(/tell me about yourself/gi)) {
-    product = "contact . https://sanjusazid.netlify.app"
+    product = "contact . https://shaiksajidhussain.github.io/personal_portfolio/"
 
   }
   else if (text.match(/insta id/gi)) {
     product = "sanju__crazy"
 
   }
+  
+  else if (text.match(/link/gi)) {
+    product = "https://shaiksajidhussain.github.io/personal_portfolio/"
+
+
+    
+  }
+  else if (text.match(/resume/gi)) {
+    product = "https://drive.google.com/file/d/14jRdFlZpAhhmqlVehR_h1s3K1ugemBbY/view?usp=sharing"
+
+ 
+    
+  }
   else if (text.match(/she cheated on me/gi)) {
     product = "bro dont worry follow the goals, girls will automatically follows you"
   }
   else if (text.match(/good morning/gi)) {
-    product = "good morning sunshine , Have a good day"
+    product = "good morning , Have a good day"
   }
   else if (text.match(/good afternoon/gi)) {
     product = "good afternoon beautiful"
